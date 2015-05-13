@@ -1,4 +1,3 @@
-
 @extends('app')
 
 @section('content')
