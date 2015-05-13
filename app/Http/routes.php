@@ -13,10 +13,10 @@
 
 Route::get('/', 'WelcomeController@index');
 Route::get('home', 'HomeController@index');
-Route::controllers([
+/*Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
-]);
+]);*/
 
 Route::resource('projects', 'ProjectsController');
 //Route::resource('tasks', 'TasksController');
